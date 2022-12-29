@@ -2,7 +2,10 @@ import React from "react";
 
 const Apresentation = () => {
   return (
-    <div className="d-flex flex-column-reverse p-4 w-50">
+    <div
+      className="d-flex flex-column-reverse p-4 w-50"
+      style={{ zIndex: 2000 }}
+    >
       <p className="text-gray-400">
         Em constante aprendizado, me considero um especialista em javascript. A
         escolha dessa linguagem de programação, livre de paradigma, pareceu ser
