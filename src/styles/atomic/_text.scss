@@ -1,0 +1,13 @@
+.text-yellow {
+  color: $yellow;
+}
+
+.text-yellow-hover:hover {
+  color: $yellow;
+}
+
+@each $key, $gray in $grays {
+  .text-gray-#{$key} {
+    color: $gray;
+  }
+}
