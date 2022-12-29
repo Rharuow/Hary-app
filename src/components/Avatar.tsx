@@ -6,7 +6,14 @@ const Avatar: React.FC<{
   height?: number;
   src?: string;
   className?: string;
-}> = ({ width = 320, height = 320, src = "/profile.png", className = " " }) => {
+  style?: {};
+}> = ({
+  width = 320,
+  height = 320,
+  src = "/profile.png",
+  className = " ",
+  style = {},
+}) => {
   return (
     <Image
       width={width}
@@ -14,6 +21,7 @@ const Avatar: React.FC<{
       src={src}
       className={className}
       alt="avatar image"
+      style={style}
     />
   );
 };
