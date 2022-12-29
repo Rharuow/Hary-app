@@ -24,7 +24,7 @@ const Layout: React.FC<{
       {children}
       <Particles
         id="tsparticles"
-        options={options}
+        options={options as any}
         init={particlesInit}
         loaded={particlesLoaded}
       />
