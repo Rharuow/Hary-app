@@ -1,7 +1,8 @@
 import React from "react";
+import MyGoals from "../components/domain/MyGoals";
 
-const MyGoals = () => {
-  return <div>MyGoals</div>;
+const MyGoalsPage = () => {
+  return <MyGoals />;
 };
 
-export default MyGoals;
+export default MyGoalsPage;

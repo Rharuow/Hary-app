@@ -5,11 +5,8 @@ const AboutMe = () => {
   return (
     <div className="min-h-100vh d-flex justify-content-center algin-items-center p-4 flex-wrap">
       <Navigation className="w-100" />
-      <div>
-        <p
-          className="text-center mb-0 bg-secondary text-dark fw-bold p-2 text-justify rounded-top"
-          style={{ zIndex: 1000 }}
-        >
+      <div style={{ zIndex: 1000 }}>
+        <p className="text-center mb-0 bg-secondary text-dark fw-bold p-2 text-justify rounded-top">
           Bacharel em Ciências Biológicas pela UFRN (Universidade Federal do Rio
           Grande Norte), sempre busquei ferramentas para automatizar e organizar
           dados e processos técnico-científicos. Em busca de produzir uma
@@ -21,13 +18,8 @@ const AboutMe = () => {
           <strong className="text-yellow">WordPress</strong>, e com a finalidade
           de buscar experiências reais na área de desenvolvimento web, resolvi
           me aventurar com projetos freelancers em plataformas como{" "}
-          <strong className="text-yellow">Workana</strong>.
-        </p>
-        <p
-          className="text-center bg-secondary text-dark fw-bold p-2 text-justify rounded-bottom"
-          style={{ zIndex: 1000 }}
-        >
-          Apesar de uma boa remuneração, trabalhar com{" "}
+          <strong className="text-yellow">Workana</strong>. Apesar de uma boa
+          remuneração, trabalhar com{" "}
           <strong className="text-yellow">Wordpress</strong> não era tão
           desafiador e sentia que não havia evolução como desenvolvedor
           realizando apenas projetos freelancers. Por fim, busquei na iniciativa
