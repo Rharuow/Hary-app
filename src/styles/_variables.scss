@@ -1,4 +1,7 @@
-$yellow: #ffff00;
+$yellow-light: #ffff00;
+$yellow: #bdbd00;
+$yellow-dark: #a8a800;
+
 $gray-100: #f8f9fa;
 $gray-200: #e9ecef;
 $gray-300: #dee2e6;
@@ -19,4 +22,10 @@ $grays: (
   "700": $gray-700,
   "800": $gray-800,
   "900": $gray-900,
+);
+
+$colors: (
+  "yellow": $yellow,
+  "yellow-light": $yellow-light,
+  "yellow-dark": $yellow-dark,
 );

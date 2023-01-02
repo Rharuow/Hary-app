@@ -5,8 +5,6 @@ import React from "react";
 const Navigation: React.FC<{ className?: string }> = ({ className = " " }) => {
   const router = useRouter();
 
-  console.log("router = ", router.asPath);
-
   return (
     <div className={`d-flex justify-content-around ${className}`}>
       <Link

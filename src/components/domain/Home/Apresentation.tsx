@@ -1,20 +1,17 @@
 import React from "react";
+import { useLanguageContext } from "../../../app/Language";
+import { translate, Language } from "../../../translate";
 
 const Apresentation = () => {
+  const { language } = useLanguageContext();
+
   return (
     <div
       className="d-flex flex-column-reverse p-4 w-50"
       style={{ zIndex: 2000 }}
     >
       <p className="text-gray-400">
-        Em constante aprendizado, me considero um especialista em javascript. A
-        escolha dessa linguagem de programação, livre de paradigma, pareceu ser
-        a melhor escolha para um desenvolvedor web fullstack. Na minha jornada,
-        tenho bem mais experiência com frontend usando
-        <span className="text-yellow fw-bolder"> ReactJs/NextJs</span>, porém
-        gosto de me aventurar no backend utilizando{" "}
-        <span className="text-yellow fw-bolder">NodeJs</span> com{" "}
-        <span className="text-yellow fw-bolder">NestJs</span>.
+        {translate.apresentation[language as keyof Language]}
       </p>
       <h1 className="text-yellow">Web</h1>
       <h1 className="text-gray-300">Desenvolvedor</h1>

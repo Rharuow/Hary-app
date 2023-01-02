@@ -4,6 +4,8 @@ import type { Container, Engine } from "tsparticles-engine";
 import { loadFull } from "tsparticles";
 
 import options from "./options-particles";
+import { Button } from "react-bootstrap";
+import { useLanguageContext } from "./Language";
 
 const Layout: React.FC<{
   children: any;
@@ -19,8 +21,20 @@ const Layout: React.FC<{
     },
     []
   );
+
+  const { language, setLanguage } = useLanguageContext();
+
   return (
-    <div className="bg-dark min-h-100vh">
+    <div className="bg-dark min-h-100vh position-relative">
+      <Button
+        style={{ position: "fixed", bottom: 5, right: 5, zIndex: 2000 }}
+        className="bg-yellow bg-yellow-light-hover text-dark border-0"
+        onClick={() =>
+          setLanguage((prevState) => (prevState === "US" ? "BR" : "US"))
+        }
+      >
+        {language}
+      </Button>
       {children}
       <Particles
         id="tsparticles"
