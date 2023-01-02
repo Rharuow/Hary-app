@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
-import { useLanguageContext } from "../../../../app/Language";
+import { useLanguageContext } from "../app/Language";
 
-import { translate, Language } from "../../../../translate";
+import { translate, Language } from "../translate";
 
 const Navigation: React.FC<{ className?: string }> = ({ className = " " }) => {
   const router = useRouter();

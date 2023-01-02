@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 import ListGroup from "react-bootstrap/ListGroup";
 import { Carousel } from "react-responsive-carousel";
 
-import Navigation from "../Home/Information/Navigation";
+import Navigation from "../../Navigation";
 import backendRequiriments from "./Backend";
 
 import frontendRequiriments from "./Frontend";
