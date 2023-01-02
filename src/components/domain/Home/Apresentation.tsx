@@ -11,9 +11,9 @@ const Apresentation = () => {
       style={{ zIndex: 2000 }}
     >
       <p className="text-gray-400">
-        {translate[language as keyof Language].apresentation.description}
+        {translate[language as keyof Language].home.apresentation.description}
       </p>
-      {translate[language as keyof Language].apresentation.title}
+      {translate[language as keyof Language].home.apresentation.title}
     </div>
   );
 };

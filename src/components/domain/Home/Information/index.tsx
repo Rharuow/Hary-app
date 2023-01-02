@@ -1,7 +1,7 @@
 import React from "react";
 
 import Avatar from "../../../Avatar";
-import Navigation from "./Navigation";
+import Navigation from "../../../Navigation";
 
 const Information = () => {
   return (
