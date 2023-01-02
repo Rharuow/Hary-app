@@ -64,6 +64,10 @@ export const translate = {
         </p>
       </>
     ),
+    myGoals: {
+      introduction:
+        "I started my career as a frontend developer with Javascript, but I always wanted to reach fullstack status. To do so, follow the list of steps to achieve this goal:",
+    },
   },
   BR: {
     home: {
@@ -126,5 +130,9 @@ export const translate = {
         </p>
       </>
     ),
+    myGoals: {
+      introduction:
+        "Iniciei minha carreira como Desenvolvedor frontend com Javascript, porém sempre quis alcançar o status de fullstack. Para tal, segue a lista de passos para alcançar tal objetivo:",
+    },
   },
 };

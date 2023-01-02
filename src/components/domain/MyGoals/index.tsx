@@ -2,6 +2,8 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import ListGroup from "react-bootstrap/ListGroup";
 import { Carousel } from "react-responsive-carousel";
+import { useLanguageContext } from "../../../app/Language";
+import { Language, translate } from "../../../translate";
 
 import Navigation from "../../Navigation";
 import backendRequiriments from "./Backend";
@@ -9,14 +11,13 @@ import backendRequiriments from "./Backend";
 import frontendRequiriments from "./Frontend";
 
 const MyGoals = () => {
+  const { language } = useLanguageContext();
   return (
     <div className="min-h-100vh d-flex justify-content-center algin-items-center px-4 pt-10px flex-wrap">
       <Navigation className="w-100 mb-16px" />
       <div style={{ zIndex: 1 }}>
         <p className="text-center mb-0 bg-secondary text-dark fw-bold p-2 text-justify rounded-top">
-          Iniciei minha carreira como Desenvolvedor frontend com Javascript,
-          porém sempre quis alcançar o status de fullstack. Para tal, segue a
-          lista de passos para alcançar tal objetivo:
+          {translate[language as keyof Language].myGoals.introduction}
         </p>
       </div>
       <div className="d-flex justify-content-around w-100">
