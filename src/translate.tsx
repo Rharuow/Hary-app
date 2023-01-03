@@ -30,7 +30,7 @@ export const translate = {
     navigation: [
       { name: "Home", route: "/" },
       { name: "About me", route: "/about-me" },
-      { name: "My goals", route: "my-goals" },
+      { name: "My goals", route: "/my-goals" },
     ],
     aboutMe: (
       <>
@@ -296,7 +296,7 @@ export const translate = {
     navigation: [
       { name: "Home", route: "/" },
       { name: "Sobre mim", route: "/about-me" },
-      { name: "Minhas metas", route: "my-goals" },
+      { name: "Minhas metas", route: "/my-goals" },
     ],
     aboutMe: (
       <>
