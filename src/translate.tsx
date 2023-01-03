@@ -158,6 +158,115 @@ export const translate = {
           ),
         },
       ],
+      backendRequests: [
+        {
+          name: "NodeJs",
+          description: () => (
+            <p>
+              <strong className="text-yellow">Open source</strong>,{" "}
+              <strong className="text-yellow">cross-platform</strong> software
+              based on{" "}
+              <strong className="text-yellow">
+                Google`&apos;`s v8 interpreter
+              </strong>{" "}
+              that allows the execution of{" "}
+              <strong className="text-yellow">Javascript</strong> codes outside
+              the web browser. It has an{" "}
+              <strong className="text-yellow">
+                {" "}
+                event-driven asynchronous architecture
+              </strong>
+              .
+            </p>
+          ),
+        },
+        {
+          name: "Express",
+          description: () => (
+            <p>
+              A <strong className="text-yellow">framework</strong> for{" "}
+              <strong className="text-yellow">NodeJs</strong> that provides the
+              bare minimum resources for building web servers. It is{" "}
+              <strong className="text-yellow">open source</strong> under{" "}
+              <strong className="text-yellow">MIT</strong> license.
+            </p>
+          ),
+        },
+        {
+          name: "SQL Database",
+          description: () => (
+            <p>
+              Data modeling strategy in the form of{" "}
+              <strong className="text-yellow">tables</strong> with{" "}
+              <strong className="text-yellow">relationships</strong> between
+              them. This relationship can be done with{" "}
+              <strong className="text-yellow">attributes</strong> called{" "}
+              <strong className="text-yellow">primary</strong> and{" "}
+              <strong className="text-yellow">foreign keys</strong>. This
+              strategy allows you to{" "}
+              <strong className="text-yellow">nest this data</strong>. Some{" "}
+              <strong className="text-yellow">database managers (DBMS)</strong>{" "}
+              that work with this type of modeling are:{" "}
+              <strong className="text-yellow">MySQL</strong>,{" "}
+              <strong className="text-yellow">PostgreSQL</strong> and{" "}
+              <strong className="text-yellow">MariaDB</strong>.
+            </p>
+          ),
+        },
+        {
+          name: "NoSQL Database",
+          description: () => (
+            <p>
+              In this type of database, the strategies are diverse. Among all
+              these strategies, I have already carried out small projects with
+              <strong className="text-yellow"> MongoDB</strong>,{" "}
+            </p>
+          ),
+        },
+        {
+          name: "NestJs",
+          description: () => (
+            <p>
+              Open source <strong className="text-yellow">NodeJs</strong>{" "}
+              framework intended for{" "}
+              <strong className="text-yellow">server-side application</strong>{" "}
+              development.
+            </p>
+          ),
+        },
+        {
+          name: "MVC",
+          description: () => (
+            <p>
+              Architecture that divides applications into 3 layers, namely{" "}
+              <strong className="text-yellow">Model</strong>,
+              <strong className="text-yellow">View</strong> and{" "}
+              <strong className="text-yellow">Controller</strong>. The Model
+              layer represents data persistence, representing the tables of an{" "}
+              <strong className="text-yellow">SQL database</strong>. The View
+              layer was used a lot in monolithic systems to render the{" "}
+              <strong className="text-yellow">HTML</strong> that the server sent
+              to the browser to display the web page.
+            </p>
+          ),
+        },
+        {
+          name: "Tests",
+          description: () => (
+            <p>
+              Tests are <strong className="text-yellow">automated</strong> ways
+              to validate <strong className="text-yellow">use cases</strong> of
+              features told by{" "}
+              <strong className="text-yellow">user stories</strong>. Using{" "}
+              <strong className="text-yellow">Jest</strong> it is possible to
+              test routes and their returns. In addition, the{" "}
+              <strong className="text-yellow">In-Memory Database</strong>{" "}
+              strategy can also be used to validate data persistence without the
+              need for test <strong className="text-yellow">Mocks</strong>.
+            </p>
+          ),
+        },
+      ],
     },
   },
   BR: {
@@ -310,6 +419,114 @@ export const translate = {
               <strong className="text-yellow">JestJs</strong> que em conjunto
               com outras ferramentas, verifica de forma automatizada cada
               elemento renderizado.
+            </p>
+          ),
+        },
+      ],
+      backendRequests: [
+        {
+          name: "NodeJs",
+          description: () => (
+            <p>
+              Software de <strong className="text-yellow">código aberto</strong>
+              , multiplataforma, baseado no{" "}
+              <strong className="text-yellow">interpretador</strong> v8 do{" "}
+              <strong className="text-yellow">Google</strong> que permite a
+              execução de códigos{" "}
+              <strong className="text-yellow">Javascript</strong> fora do
+              navegador Web. Possuindo uma arquitetura{" "}
+              <strong className="text-yellow">assíncrona</strong> orientada a
+              eventos.
+            </p>
+          ),
+        },
+        {
+          name: "Express",
+          description: () => (
+            <p>
+              Uma <strong className="text-yellow">framework</strong> para{" "}
+              <strong className="text-yellow">NodeJs</strong> que fornece o
+              mínimos recursos para construir servidores web. Possui{" "}
+              <strong className="text-yellow">código aberto</strong> sob licença{" "}
+              <strong className="text-yellow">MIT</strong>.
+            </p>
+          ),
+        },
+        {
+          name: "Banco de Dados SQL",
+          description: () => (
+            <p>
+              Estratégia de modelagem de dados em forma de{" "}
+              <strong className="text-yellow">tabelas</strong> com{" "}
+              <strong className="text-yellow">relacionamento</strong>
+              entre elas. Esse relacionamento pode ser feito com{" "}
+              <strong className="text-yellow">atributos</strong> chamados de
+              <strong className="text-yellow">chave primárias</strong> e{" "}
+              <strong className="text-yellow">estrangeiras</strong>. Essa
+              estratégia permite fazer{" "}
+              <strong className="text-yellow">aninhamento</strong> desses dados.
+              Alguns{" "}
+              <strong className="text-yellow">
+                gerenciadores de banco de dados (SGDBs)
+              </strong>{" "}
+              que trabalham com esse tipo de modelagem são que já tive contato
+              foram: <strong className="text-yellow">MySQL</strong>,{" "}
+              <strong className="text-yellow">PostgreSQL</strong> e{" "}
+              <strong className="text-yellow">MariaDB</strong>
+            </p>
+          ),
+        },
+        {
+          name: "Banco de Dados NoSQL",
+          description: () => (
+            <p>
+              Esse tipo de banco de dados, as estratégias são diversas. Dentre
+              todas essas estratégias já realizei pequenos projetos com
+              <strong className="text-yellow"> MongoDB</strong>,{" "}
+            </p>
+          ),
+        },
+        {
+          name: "NestJs",
+          description: () => (
+            <p>
+              Framework <strong className="text-yellow">NodeJs</strong> de{" "}
+              <strong className="text-yellow">código aberto</strong> destinado
+              ao desenvolvimento de aplicativos do lado do servidor.
+            </p>
+          ),
+        },
+        {
+          name: "MVC",
+          description: () => (
+            <p>
+              Arquitetura que divide as aplicações em 3 camadas, sendo elas{" "}
+              <strong className="text-yellow">Model</strong>,{" "}
+              <strong className="text-yellow">View</strong> e{" "}
+              <strong className="text-yellow">Controller</strong>. A camada do
+              Model representa a persistência dos dados, representandos as
+              tabelas de um banco SQL. A camada do View foi muito utilizada em
+              sistemas monolíticos para renderizar o{" "}
+              <strong className="text-yellow">HTML</strong> que o servidor
+              enviava ao navegador para exibir a página web.
+            </p>
+          ),
+        },
+        {
+          name: "Testes",
+          description: () => (
+            <p>
+              Testes são formas{" "}
+              <strong className="text-yellow">automatizadas</strong> para
+              validar <strong className="text-yellow">casos de usos</strong> de
+              funcionalidades contadas por{" "}
+              <strong className="text-yellow">histórias de usuário</strong>.
+              Utilizando o <strong className="text-yellow">Jest</strong> é
+              possível testar rotas e seus retornos. Além disso, também pode se
+              utilizar a estratégia de{" "}
+              <strong className="text-yellow">In-Memory Database</strong> para
+              validar a persistência dos dados sem a necessidade de{" "}
+              <strong className="text-yellow">Mocks</strong> de teste.
             </p>
           ),
         },

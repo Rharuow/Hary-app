@@ -5,7 +5,6 @@ import { useLanguageContext } from "../../../app/Language";
 import { Language, translate } from "../../../translate";
 
 import Navigation from "../../Navigation";
-import backendRequiriments from "./Backend";
 
 const MyGoals = () => {
   const { language } = useLanguageContext();
@@ -39,17 +38,19 @@ const MyGoals = () => {
         <div style={{ zIndex: 1 }}>
           <h2 className="rounded-top mb-0 text-center fw-bolder">Backend</h2>
           <Carousel showIndicators={false} width={350}>
-            {backendRequiriments.map((requiriment) => (
-              <Card
-                key={requiriment.name}
-                className="bg-secondary text-white h-100 max-h-307px"
-              >
-                <Card.Header>{requiriment.name}</Card.Header>
-                <Card.Body className="d-flex align-items-center overflow-auto pt-30px">
-                  {requiriment.description()}
-                </Card.Body>
-              </Card>
-            ))}
+            {translate[language as keyof Language].myGoals.backendRequests.map(
+              (requiriment) => (
+                <Card
+                  key={requiriment.name}
+                  className="bg-secondary text-white h-100 max-h-307px"
+                >
+                  <Card.Header>{requiriment.name}</Card.Header>
+                  <Card.Body className="d-flex align-items-center overflow-auto pt-30px">
+                    {requiriment.description()}
+                  </Card.Body>
+                </Card>
+              )
+            )}
           </Carousel>
         </div>
       </div>
