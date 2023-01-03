@@ -5,13 +5,16 @@ import { useLanguageContext } from "../app/Language";
 
 import { translate, Language } from "../translate";
 
-const Navigation: React.FC<{ className?: string }> = ({ className = " " }) => {
+const Navigation: React.FC<{ className?: string; justifyContent?: string }> = ({
+  className = " ",
+  justifyContent = "around",
+}) => {
   const router = useRouter();
 
   const { language } = useLanguageContext();
 
   return (
-    <div className={`d-flex justify-content-around ${className}`}>
+    <div className={`d-flex justify-content-${justifyContent} ${className}`}>
       {translate[language as keyof Language].navigation.map((item, index) => (
         <Link
           key={item.name}
