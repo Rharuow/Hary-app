@@ -1,14 +1,11 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import ListGroup from "react-bootstrap/ListGroup";
 import { Carousel } from "react-responsive-carousel";
 import { useLanguageContext } from "../../../app/Language";
 import { Language, translate } from "../../../translate";
 
 import Navigation from "../../Navigation";
 import backendRequiriments from "./Backend";
-
-import frontendRequiriments from "./Frontend";
 
 const MyGoals = () => {
   const { language } = useLanguageContext();
@@ -24,17 +21,19 @@ const MyGoals = () => {
         <div style={{ zIndex: 1 }}>
           <h2 className="rounded-top mb-0 text-center fw-bolder">Frontend</h2>
           <Carousel showIndicators={false} width={350}>
-            {frontendRequiriments.map((requiriment) => (
-              <Card
-                key={requiriment.name}
-                className="bg-secondary text-white h-100"
-              >
-                <Card.Header>{requiriment.name}</Card.Header>
-                <Card.Body className="d-flex align-items-center">
-                  {requiriment.description()}
-                </Card.Body>
-              </Card>
-            ))}
+            {translate[language as keyof Language].myGoals.frontendRequests.map(
+              (requiriment) => (
+                <Card
+                  key={requiriment.name}
+                  className="bg-secondary text-white h-100"
+                >
+                  <Card.Header>{requiriment.name}</Card.Header>
+                  <Card.Body className="d-flex align-items-center">
+                    {requiriment.description()}
+                  </Card.Body>
+                </Card>
+              )
+            )}
           </Carousel>
         </div>
         <div style={{ zIndex: 1 }}>
