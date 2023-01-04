@@ -311,7 +311,7 @@ export const translate = {
     ),
     myGoals: {
       introduction:
-        "Iniciei minha carreira como Desenvolvedor frontend com Javascript, porém sempre quis alcançar o status de fullstack. Para tal, segue a lista de passos para alcançar tal objetivo:",
+        "Iniciei minha carreira como Desenvolvedor frontend com Javascript, porém sempre quis alcançar o status de fullstack. Para tal, segue a lista de passos para alcançar meu objetivo:",
       frontendRequests: [
         {
           name: "HTML",
@@ -319,9 +319,9 @@ export const translate = {
             <p>
               Linguagem de marcação utilizada por navegadores para exibir
               páginas <strong className="text-yellow">web</strong>. A principal
-              caracteristica dessa linguagem é o uso de{" "}
-              <strong className="text-yellow">tags</strong>, que contextualizam
-              o conteúdo.
+              característica dessa linguagem é o uso de{" "}
+              <strong className="text-yellow">tags</strong> que contextualizam o
+              conteúdo.
             </p>
           ),
         },
@@ -330,7 +330,8 @@ export const translate = {
           description: () => (
             <p>
               Linguagem de programação,
-              <strong className="text-yellow">interpretada</strong> e baseada em
+              <strong className="text-yellow"> interpretada</strong> e baseada
+              em
               <strong className="text-yellow"> objetos</strong> com{" "}
               <strong className="text-yellow"> funções </strong> de primeira
               classe. Criada inicialmente para <strong> web</strong>, invadiu o
@@ -365,7 +366,7 @@ export const translate = {
               <strong className="text-yellow">
                 (Server Side Rendering - SSR)
               </strong>
-              , a arquitetura de pastas permite uma fácil e rapida criação de
+              , a arquitetura de pastas permite uma fácil e rápida criação de
               rotas de uma <strong className="text-yellow">API</strong> e da
               aplicação do lado do cliente.
             </p>
@@ -378,7 +379,7 @@ export const translate = {
               <strong className="text-yellow">User Experience</strong> e{" "}
               <strong className="text-yellow">User Interface</strong>, apesar de
               caminharem juntos, seus conceitos são bem distintos. Enquanto o UX
-              trabalha com a experiência do usuário com relação a usabildiade
+              trabalha com a experiência do usuário com relação a usabilidade
               das funcionalidades do produto, o UI trabalha com a forma da
               interação do usuário com o produto, portanto um é complementar do
               outro, por isso suas siglas andam juntas em geral.
@@ -394,8 +395,8 @@ export const translate = {
               validar <strong className="text-yellow">casos de usos</strong> de
               funcionalidades contadas por{" "}
               <strong className="text-yellow">histórias de usuário</strong>. A
-              principal ferramenta utilizada pra teste é o{" "}
-              <strong className="text-yellow">JestJs</strong> que em conjunto
+              principal ferramenta utilizada para teste é o{" "}
+              <strong className="text-yellow">JestJs</strong> que, em conjunto
               com outras ferramentas, verifica de forma automatizada cada
               elemento renderizado.
             </p>
@@ -424,7 +425,7 @@ export const translate = {
           description: () => (
             <p>
               Uma <strong className="text-yellow">framework</strong> para{" "}
-              <strong className="text-yellow">NodeJs</strong> que fornece o
+              <strong className="text-yellow">NodeJs</strong> que fornece os
               mínimos recursos para construir servidores web. Possui{" "}
               <strong className="text-yellow">código aberto</strong> sob licença{" "}
               <strong className="text-yellow">MIT</strong>.
@@ -438,12 +439,12 @@ export const translate = {
               Estratégia de modelagem de dados em forma de{" "}
               <strong className="text-yellow">tabelas</strong> com{" "}
               <strong className="text-yellow">relacionamento </strong>
-              entre elas. Esse relacionamento pode ser feito com{" "}
+              entre elas que permite fazer{" "}
+              <strong className="text-yellow">aninhamento</strong> de dados.
+              Esse relacionamento pode ser feito com{" "}
               <strong className="text-yellow">atributos</strong> chamados de
               <strong className="text-yellow"> chave primária</strong> e{" "}
-              <strong className="text-yellow"> chave estrangeira</strong>. Essa
-              estratégia permite fazer{" "}
-              <strong className="text-yellow">aninhamento</strong> desses dados.
+              <strong className="text-yellow"> chave estrangeira</strong>.
               Alguns{" "}
               <strong className="text-yellow">
                 gerenciadores de banco de dados (SGDBs)
@@ -459,7 +460,7 @@ export const translate = {
           name: "Banco de Dados NoSQL",
           description: () => (
             <p>
-              Esse tipo de banco de dados, as estratégias são diversas. Dentre
+              Nesse tipo de banco de dados, as estratégias são diversas. Dentre
               todas essas estratégias já realizei pequenos projetos com
               <strong className="text-yellow"> MongoDB</strong>,{" "}
             </p>
