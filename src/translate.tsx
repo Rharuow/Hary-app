@@ -209,7 +209,7 @@ export const translate = {
             <p>
               In this type of database, the strategies are diverse. Among all
               these strategies, I have already carried out small projects with
-              <strong className="text-yellow"> MongoDB</strong>,{" "}
+              <strong className="text-yellow"> MongoDB</strong>.
             </p>
           ),
         },
@@ -462,7 +462,7 @@ export const translate = {
             <p>
               Nesse tipo de banco de dados, as estratégias são diversas. Dentre
               todas essas estratégias já realizei pequenos projetos com
-              <strong className="text-yellow"> MongoDB</strong>,{" "}
+              <strong className="text-yellow"> MongoDB</strong>.{" "}
             </p>
           ),
         },
