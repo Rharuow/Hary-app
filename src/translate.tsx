@@ -437,19 +437,19 @@ export const translate = {
             <p>
               Estratégia de modelagem de dados em forma de{" "}
               <strong className="text-yellow">tabelas</strong> com{" "}
-              <strong className="text-yellow">relacionamento</strong>
+              <strong className="text-yellow">relacionamento </strong>
               entre elas. Esse relacionamento pode ser feito com{" "}
               <strong className="text-yellow">atributos</strong> chamados de
-              <strong className="text-yellow">chave primárias</strong> e{" "}
-              <strong className="text-yellow">estrangeiras</strong>. Essa
+              <strong className="text-yellow"> chave primária</strong> e{" "}
+              <strong className="text-yellow"> chave estrangeira</strong>. Essa
               estratégia permite fazer{" "}
               <strong className="text-yellow">aninhamento</strong> desses dados.
               Alguns{" "}
               <strong className="text-yellow">
                 gerenciadores de banco de dados (SGDBs)
               </strong>{" "}
-              que trabalham com esse tipo de modelagem são que já tive contato
-              foram: <strong className="text-yellow">MySQL</strong>,{" "}
+              que já tive contato foram:{" "}
+              <strong className="text-yellow">MySQL</strong>,{" "}
               <strong className="text-yellow">PostgreSQL</strong> e{" "}
               <strong className="text-yellow">MariaDB</strong>
             </p>
