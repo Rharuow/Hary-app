@@ -500,9 +500,9 @@ export const translate = {
               validar <strong className="text-yellow">casos de usos</strong> de
               funcionalidades contadas por{" "}
               <strong className="text-yellow">histórias de usuário</strong>.
-              Utilizando o <strong className="text-yellow">Jest</strong> é
-              possível testar rotas e seus retornos. Além disso, também pode se
-              utilizar a estratégia de{" "}
+              Utilizando o <strong className="text-yellow">Jest</strong>, é
+              possível testar rotas e seus retornos. Além disso, outra
+              estratégia é utilizar{" "}
               <strong className="text-yellow">In-Memory Database</strong> para
               validar a persistência dos dados sem a necessidade de{" "}
               <strong className="text-yellow">Mocks</strong> de teste.
