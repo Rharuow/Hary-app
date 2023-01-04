@@ -7,22 +7,12 @@ export const translate = {
   US: {
     home: {
       apresentation: {
-        description: (
-          <>
-            In constant learning, I consider myself a javascript expert.
-            Choosing this paradigm-free programming language seems to be the
-            best choice for a fullstack web developer. On my journey, I have
-            much more experience with frontend using{" "}
-            <span className="text-yellow fw-bolder"> ReactJs/NextJs</span>, but
-            I like to venture into the backend using{" "}
-            <span className="text-yellow fw-bolder">NodeJs</span> with{" "}
-            <span className="text-yellow fw-bolder">NestJs</span>.
-          </>
-        ),
+        description:
+          "In constant learning, I consider myself a javascript expert. Choosing this paradigm-free programming language seems to be the best choice for a fullstack web developer. On my journey, I have much more experience with frontend using ReactJs/NextJs, but I like to venture into the backend using NodeJs with NestJs.",
         title: (
           <>
-            <h1 className="text-gray-300">Developer</h1>
-            <h1 className="text-yellow">Web</h1>
+            <h1 className="text-yellow me-1">Web</h1>
+            <h1 className="text-gray-300">Developer </h1>
           </>
         ),
       },
@@ -272,23 +262,12 @@ export const translate = {
   BR: {
     home: {
       apresentation: {
-        description: (
-          <>
-            Em constante aprendizado, me considero um especialista em
-            javascript. A escolha dessa linguagem de programação, livre de
-            paradigma, pareceu ser a melhor escolha para um desenvolvedor web
-            fullstack. Na minha jornada, tenho bem mais experiência com frontend
-            usando
-            <span className="text-yellow fw-bolder"> ReactJs/NextJs</span>,
-            porém gosto de me aventurar no backend utilizando{" "}
-            <span className="text-yellow fw-bolder">NodeJs</span> com{" "}
-            <span className="text-yellow fw-bolder">NestJs</span>.
-          </>
-        ),
+        description:
+          "Em constante aprendizado, me considero um especialista em javascript. A escolha dessa linguagem de programação, livre de paradigma, pareceu ser a melhor escolha para um desenvolvedor web fullstack. Na minha jornada, tenho bem mais experiência com frontend usando ReactJs/NextJs, porém gosto de me aventurar no backend utilizando NodeJs com NestJs.",
         title: (
           <>
-            <h1 className="text-yellow">Web</h1>
             <h1 className="text-gray-300">Desenvolvedor</h1>
+            <h1 className="text-yellow">Web</h1>
           </>
         ),
       },

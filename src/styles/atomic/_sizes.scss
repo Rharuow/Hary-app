@@ -1,4 +1,8 @@
 @for $i from 0 through 100 {
+  .z-index-#{$i} {
+    z-index: #{$i};
+  }
+
   // Width
   .w-#{$i} {
     width: #{$i}#{"%"};
@@ -79,6 +83,10 @@
 }
 
 @for $i from 101 through 1000 {
+  .z-index-#{$i} {
+    z-index: #{$i};
+  }
+
   .w-#{$i}vw {
     width: #{$i}vw;
   }

@@ -3,24 +3,16 @@ import Particles from "react-tsparticles";
 import type { Container, Engine } from "tsparticles-engine";
 import { loadFull } from "tsparticles";
 
-import options from "./options-particles";
+import options from "../app/options-particles";
 import { Button } from "react-bootstrap";
-import { useLanguageContext } from "./Language";
+import { useLanguageContext } from "./LanguageContext";
 
 const Layout: React.FC<{
   children: any;
 }> = ({ children }) => {
   const particlesInit = useCallback(async (engine: Engine) => {
-    console.log(engine);
     await loadFull(engine);
   }, []);
-
-  const particlesLoaded = useCallback(
-    async (container: Container | undefined) => {
-      await console.log(container);
-    },
-    []
-  );
 
   const { language, setLanguage } = useLanguageContext();
 
@@ -40,7 +32,6 @@ const Layout: React.FC<{
         id="tsparticles"
         options={options as any}
         init={particlesInit}
-        loaded={particlesLoaded}
       />
     </div>
   );

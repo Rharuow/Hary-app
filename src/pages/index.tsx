@@ -1,5 +1,16 @@
-import Apresentation from "../components/domain/Home/Apresentation";
-import Information from "../components/domain/Home/Information";
+import dynamic from "next/dynamic";
+
+const Information = dynamic(
+  () => import("../components/domain/Home/Information"),
+  { ssr: false }
+);
+
+const Apresentation = dynamic(
+  () => import("../components/domain/Home/Apresentation"),
+  {
+    ssr: false,
+  }
+);
 
 export default function Home() {
   return (

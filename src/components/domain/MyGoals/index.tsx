@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import { Carousel } from "react-responsive-carousel";
-import { useLanguageContext } from "../../../app/Language";
+import { useLanguageContext } from "../../../context/LanguageContext";
 import { Language, translate } from "../../../translate";
 
 import Navigation from "../../Navigation";
