@@ -1,5 +1,7 @@
 import React from "react";
-import MyGoals from "../components/domain/MyGoals";
+import dynamic from "next/dynamic";
+
+const MyGoals = dynamic(import("../components/domain/MyGoals"), { ssr: false });
 
 const MyGoalsPage = () => {
   return <MyGoals />;

@@ -10,16 +10,16 @@ const MyGoals = () => {
   const { language } = useLanguageContext();
   return (
     <div className="min-h-100vh d-flex justify-content-center algin-items-center px-4 pt-10px flex-wrap">
-      <Navigation className="w-100 mb-16px" />
+      <Navigation className="w-100 mb-16px " />
       <div style={{ zIndex: 1 }}>
         <p className="text-center mb-0 bg-secondary text-dark fw-bold p-2 text-justify rounded-top">
           {translate[language as keyof Language].myGoals.introduction}
         </p>
       </div>
-      <div className="d-flex justify-content-around w-100">
+      <div className="d-flex justify-content-around w-100 flex-wrap">
         <div style={{ zIndex: 1 }}>
           <h2 className="rounded-top mb-0 text-center fw-bolder">Frontend</h2>
-          <Carousel showIndicators={false} width={350}>
+          <Carousel showIndicators={false} width={350} showThumbs={false}>
             {translate[language as keyof Language].myGoals.frontendRequests.map(
               (requiriment) => (
                 <Card
@@ -37,7 +37,7 @@ const MyGoals = () => {
         </div>
         <div style={{ zIndex: 1 }}>
           <h2 className="rounded-top mb-0 text-center fw-bolder">Backend</h2>
-          <Carousel showIndicators={false} width={350}>
+          <Carousel showIndicators={false} width={350} showThumbs={false}>
             {translate[language as keyof Language].myGoals.backendRequests.map(
               (requiriment) => (
                 <Card
