@@ -484,11 +484,10 @@ export const translate = {
               <strong className="text-yellow">Model</strong>,{" "}
               <strong className="text-yellow">View</strong> e{" "}
               <strong className="text-yellow">Controller</strong>. A camada do
-              Model representa a persistência dos dados, representandos as
-              tabelas de um banco SQL. A camada do View foi muito utilizada em
-              sistemas monolíticos para renderizar o{" "}
-              <strong className="text-yellow">HTML</strong> que o servidor
-              enviava ao navegador para exibir a página web.
+              Model representa as tabelas de persistência dos dados de um banco
+              SQL. A camada do View foi muito utilizada em sistemas monolíticos
+              para renderizar o <strong className="text-yellow">HTML</strong>{" "}
+              que o servidor enviava ao navegador para exibir a página web.
             </p>
           ),
         },
