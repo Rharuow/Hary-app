@@ -19,9 +19,9 @@ const Navigation: React.FC<{ className?: string; justifyContent?: string }> = ({
 
   return (
     <Navbar
-      variant="dark"
+      variant="secondary"
       expand="lg"
-      className={`justify-content-${justifyContent} ${className}`}
+      // className={`justify-content-${justifyContent} ${className}`}
     >
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
