@@ -6,6 +6,7 @@ import { loadFull } from "tsparticles";
 import options from "../app/options-particles";
 import { Button } from "react-bootstrap";
 import { useLanguageContext } from "./LanguageContext";
+import Navigation from "../components/Navigation";
 
 const Layout: React.FC<{
   children: any;
@@ -27,6 +28,9 @@ const Layout: React.FC<{
       >
         {language}
       </Button>
+      <div className="d-flex justify-content-end w-100">
+        <Navigation className="me-3" />
+      </div>
       {children}
       <Particles
         id="tsparticles"
