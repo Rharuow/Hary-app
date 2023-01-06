@@ -23,7 +23,7 @@ const MyGoals = () => {
               (requiriment) => (
                 <Card
                   key={requiriment.name}
-                  className="bg-secondary text-white h-100"
+                  className="bg-secondary text-white h-100 max-h-307px"
                 >
                   <Card.Header>{requiriment.name}</Card.Header>
                   <Card.Body className="d-flex align-items-center">

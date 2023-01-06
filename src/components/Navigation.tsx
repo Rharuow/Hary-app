@@ -19,7 +19,6 @@ const Navigation: React.FC<{ className?: string; justifyContent?: string }> = ({
 
   return (
     <Navbar
-      variant="secondary"
       expand="lg"
       className={`justify-content-${justifyContent} ${className}`}
     >

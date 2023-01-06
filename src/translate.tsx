@@ -119,10 +119,10 @@ export const translate = {
               <strong className="text-yellow">User Experience</strong> and{" "}
               <strong className="text-yellow">User Interface</strong>, despite
               walking together, their concepts are very different. While the UX
-              works with the user`&apos;`s experience regarding the usability of
+              works with the user&apos;s experience regarding the usability of
               the{" "}
               <strong className="text-yellow">
-                product`&apos;`s functionalities
+                product&apos;s functionalities
               </strong>
               , the UI works with the way the user interacts with the product,
               so one is complementary to the other, so their acronyms go
@@ -154,7 +154,7 @@ export const translate = {
               <strong className="text-yellow">cross-platform</strong> software
               based on{" "}
               <strong className="text-yellow">
-                Google`&apos;`s v8 interpreter
+                Google&apos;s v8 interpreter
               </strong>{" "}
               that allows the execution of{" "}
               <strong className="text-yellow">Javascript</strong> codes outside
