@@ -4,8 +4,6 @@ import { Carousel } from "react-responsive-carousel";
 import { useLanguageContext } from "../../../context/LanguageContext";
 import { Language, translate } from "../../../translate";
 
-import Navigation from "../../Navigation";
-
 const MyGoals = () => {
   const { language } = useLanguageContext();
   return (

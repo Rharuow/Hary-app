@@ -1,6 +1,5 @@
 import React from "react";
 import { useLanguageContext } from "../../../context/LanguageContext";
-import Navigation from "../../Navigation";
 
 import { translate, Language } from "../../../translate";
 
