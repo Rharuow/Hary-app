@@ -15,6 +15,8 @@ const keyWords = [
   "style",
   "Estilo",
   "estilo",
+  "Fullstack",
+  "fullstack",
 ];
 
 export const makeHighlightText: (
