@@ -17,8 +17,10 @@ const MyGoals = () => {
         </p>
       </div>
       <div className="d-flex justify-content-around w-100 flex-wrap">
-        <div className="transform-translate-top-20px transform-hover z-index-1">
-          <h2 className="rounded-top mb-0 text-center fw-bolder">Frontend</h2>
+        <div className="transform-translate-top-20px transform-hover z-index-1 mb-3">
+          <h2 className="rounded-top mb-0 text-center fw-bolder mb-2">
+            Frontend
+          </h2>
           <Carousel showIndicators={false} width={350} showThumbs={false}>
             {translate[language as keyof Language].myGoals.frontendRequests.map(
               (requiriment) => (
@@ -36,7 +38,9 @@ const MyGoals = () => {
           </Carousel>
         </div>
         <div className="transform-translate-top-20px transform-hover z-index-1">
-          <h2 className="rounded-top mb-0 text-center fw-bolder">Backend</h2>
+          <h2 className="rounded-top mb-0 text-center fw-bolder mb-2">
+            Backend
+          </h2>
           <Carousel showIndicators={false} width={350} showThumbs={false}>
             {translate[language as keyof Language].myGoals.backendRequests.map(
               (requiriment) => (
