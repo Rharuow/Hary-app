@@ -1,11 +1,12 @@
 @import "~bootstrap/scss/bootstrap";
 @import "react-responsive-carousel/lib/styles/carousel.min.css";
-@import "./variables";
+@import "./global/variables";
+@import "./global/reset";
 
 @import "./atomic/hover";
 @import "./atomic/sizes";
 @import "./atomic/bg";
-@import "./atomic/text";
+@import "./atomic/colors";
 @import "./atomic/spacers";
-@import "./global/reset";
+@import "./lib/nav";
 @import "./lib/carousel";

@@ -20,9 +20,12 @@ const Navigation: React.FC<{ className?: string; justifyContent?: string }> = ({
   return (
     <Navbar
       expand="lg"
-      className={`justify-content-${justifyContent} ${className}`}
+      className={` justify-content-${justifyContent} ${className}`}
     >
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Toggle
+        aria-controls="basic-navbar-nav"
+        className="border-color-secondary bg-secondary"
+      />
       <Navbar.Collapse id="basic-navbar-nav" className={`mt-2`}>
         <Nav>
           {translate[language as keyof Language].navigation.map(
