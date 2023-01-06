@@ -9,14 +9,17 @@ import Navigation from "../../Navigation";
 const MyGoals = () => {
   const { language } = useLanguageContext();
   return (
-    <div className="min-h-100vh d-flex justify-content-center algin-items-center px-4 pt-10px flex-wrap">
-      <div style={{ zIndex: 1 }}>
-        <p className="text-center mb-0 bg-secondary text-dark fw-bold p-2 text-justify rounded-top">
+    <div className="d-flex justify-content-center algin-items-center px-4 pt-10px flex-wrap">
+      <div
+        className="transform-translate-top-20px transform-hover mb-3"
+        style={{ zIndex: 1 }}
+      >
+        <p className="text-center mb-0 bg-secondary text-dark fw-bold p-2 mb-3 text-justify rounded-top">
           {translate[language as keyof Language].myGoals.introduction}
         </p>
       </div>
       <div className="d-flex justify-content-around w-100 flex-wrap">
-        <div style={{ zIndex: 1 }}>
+        <div className="transform-translate-top-20px transform-hover z-index-1">
           <h2 className="rounded-top mb-0 text-center fw-bolder">Frontend</h2>
           <Carousel showIndicators={false} width={350} showThumbs={false}>
             {translate[language as keyof Language].myGoals.frontendRequests.map(
@@ -34,7 +37,7 @@ const MyGoals = () => {
             )}
           </Carousel>
         </div>
-        <div style={{ zIndex: 1 }}>
+        <div className="transform-translate-top-20px transform-hover z-index-1">
           <h2 className="rounded-top mb-0 text-center fw-bolder">Backend</h2>
           <Carousel showIndicators={false} width={350} showThumbs={false}>
             {translate[language as keyof Language].myGoals.backendRequests.map(

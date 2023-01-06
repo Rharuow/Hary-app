@@ -1,4 +1,8 @@
 @for $space from 0 to 1000 {
+  .z-index-#{space} {
+    z-index: #{space};
+  }
+
   .m-#{$space} {
     margin: #{$space}#{"%"};
   }

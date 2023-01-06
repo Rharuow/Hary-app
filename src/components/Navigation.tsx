@@ -30,7 +30,7 @@ const Navigation: React.FC<{ className?: string; justifyContent?: string }> = ({
               <Link
                 key={item.name}
                 href={translate.US.navigation[index].route}
-                className={` text-yellow-hover text-end ${
+                className={`text-hover text-yellow-hover text-end ${
                   isMobile ? " " : "me-3"
                 } ${
                   router.asPath === translate.US.navigation[index].route
