@@ -39,8 +39,8 @@ const LayoutProvider: React.FC<{
         >
           {language}
         </Button>
-        <div className="d-flex justify-content-end w-100">
-          <Navigation className="me-3" />
+        <div className="d-flex justify-content-end w-100 p-3">
+          <Navigation />
         </div>
         {children}
         <Particles
